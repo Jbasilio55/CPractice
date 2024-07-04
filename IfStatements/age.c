@@ -22,4 +22,6 @@ int main()
     {
         printf("\nYou are legally able to drink!\n");
     }
+
+    return 0;
 }
