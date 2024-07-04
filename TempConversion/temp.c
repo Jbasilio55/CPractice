@@ -16,14 +16,14 @@ int main()
         printf("What is the Temperature(C): ");
         scanf("%f", &temp);
         temp = (temp * 9/5) + 32;
-        printf("\nConversion -> (F): %f\n", temp);
+        printf("\nConversion -> (F): %.1f\n", temp);
     }
     else if(unit == 'F')
     {
         printf("What is the Temperature(F): ");
         scanf("%f", &temp);
         temp = (temp - 32) * 5/9;
-        printf("\nConversion -> (C): %f\n", temp);
+        printf("\nConversion -> (C): %.1f\n", temp);
     }
     else
     {
