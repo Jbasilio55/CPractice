@@ -21,15 +21,15 @@ int main()
     {
         case '+':
             total = num1+num2;
-            printf("%lf\n", total);
+            printf("total: %.2lf\n", total);
             break;
         case '-':
             total = num1-num2;
-            printf("%lf\n", total);
+            printf("total: %.2lf\n", total);
             break;
         case '*':
             total = num1*num2;
-            printf("%lf\n", total);
+            printf("total: %.2lf\n", total);
             break;
         case '/':
             if(num1 == 0 && num2 > num1)
@@ -39,7 +39,7 @@ int main()
             }else
             {
                 total = num1+num2;
-                printf("%lf\n", total);
+                printf("total: %.2lf\n", total);
                 break;
             }
         default:
