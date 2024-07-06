@@ -14,14 +14,14 @@ int main()
     int rows = sizeof(numbers)/sizeof(numbers[0]);
     int col = sizeof(numbers[0])/sizeof(numbers[0][0]);
 
-    printf("%d\n", rows);
-    printf("%d\n", col);
+    printf("rows: %d\n", rows);
+    printf("columns: %d\n", col);
 
     for(int i = 0; i < rows; i++)
     {
         for(int j = 0; j < col; j++)
         {
-            printf("%d", numbers[i][j]);
+            printf("%d ", numbers[i][j]);
         }
         printf("\n");
     }
